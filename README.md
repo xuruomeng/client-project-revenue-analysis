@@ -36,7 +36,7 @@ From these source tables, I created summary outputs to support dashboard reporti
 
 ## Dashboard Preview
 
-![Client Performance Dashboard](images/client_performance_dashboard_excel.png)
+![Client Performance Dashboard](images/client_performance_dashboard_excel_version.png)
 
 ## Main Questions
 
