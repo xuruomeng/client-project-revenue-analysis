@@ -1,26 +1,57 @@
-# Client Project Revenue Analysis
+# Client Performance Dashboard
 
-This is a beginner SQL portfolio project about client and project revenue analysis.
+This is a personal portfolio project I built to practice SQL-based business analysis and dashboard reporting.
 
-The goal of this project is to explore business data from a small service company and answer simple revenue-related questions.  
-The analysis is based on four tables: clients, projects, timesheets, and invoices.
+The project is based on a small simulated service company dataset and focuses on client, project, timesheet, and invoice performance.  
+I used SQL to explore and summarize the data, and then created an Excel dashboard to present the main results in a clearer and more business-oriented way.
+
+## Project Goal
+
+The goal of this project was to practice turning raw business data into simple management-style reporting.
+
+More specifically, I wanted to practice:
+
+- exploring structured business data with SQL
+- summarizing performance at account level
+- comparing revenue, billable work, and invoice status
+- presenting the results in a dashboard format
 
 ## Project Overview
 
-In this project, I worked with SQL to analyze:
+This project began as a SQL analysis exercise on client and project revenue.  
+Later, I expanded it into a dashboard-oriented reporting project with a stronger account performance focus.
 
-- total revenue by client
-- total revenue by project
-- number of projects by client
-- billable and non-billable hours
-- payment status of invoices
-- top clients and projects by revenue
+The analysis is based on four source tables:
 
-This project is meant to show basic SQL skills in a business-focused context.
+- `clients.csv`
+- `projects.csv`
+- `timesheets.csv`
+- `invoices.csv`
+
+From these source tables, I created summary outputs to support dashboard reporting, such as:
+
+- account performance summary
+- account payment summary
+- account rate summary
+
+## Dashboard Preview
+
+![Client Performance Dashboard](images/client_performance_dashboard_excel.png)
+
+## Main Questions
+
+This project looks at questions such as:
+
+1. Which clients generate the most revenue?
+2. How many projects are linked to each client?
+3. How many billable and non-billable hours are recorded by account?
+4. Which accounts have pending or overdue invoice amounts?
+5. What is the average billable rate by account?
+6. Which clients and projects are the strongest contributors to revenue?
 
 ## Dataset
 
-The project uses four tables:
+The project uses four main tables:
 
 - `clients.csv`  
   Basic client information
@@ -29,7 +60,7 @@ The project uses four tables:
   Project information and client mapping
 
 - `timesheets.csv`  
-  Harvest-style work hour report with billable hours and billable amount
+  Harvest-style timesheet data with billable hours, rates, and billable amount
 
 - `invoices.csv`  
   Invoice data including invoice amount and payment status
@@ -37,6 +68,7 @@ The project uses four tables:
 ## Tools Used
 
 - SQL
+- Excel
 - GitHub
 - CSV files as source data
 
@@ -50,8 +82,30 @@ In this project, I used:
 - `ORDER BY`
 - `LEFT JOIN`
 - aggregate functions such as `SUM()` and `COUNT()`
+- `CASE WHEN`
 - `CTE`
 - window functions such as `RANK()` and cumulative sums
+
+## Dashboard Content
+
+The Excel dashboard includes:
+
+- core KPIs
+- top clients by revenue
+- top projects by revenue
+- revenue by account
+- billability rate by account
+- invoice status by account
+
+## Key Results
+
+Some of the main results shown in the dashboard are:
+
+- BlueTech Solutions is the top client by revenue
+- Alpha Retail GmbH is the second largest client by revenue
+- some accounts show strong billability, while others have lower billability
+- unpaid invoice exposure can be identified at account level
+- revenue and account performance can be compared more clearly in dashboard form than in raw tables
 
 ## Files
 
@@ -63,7 +117,7 @@ In this project, I used:
 
 ### SQL
 - `sql/01_exploration.sql`  
-  First look at the tables
+  Initial exploration of the tables
 
 - `sql/02_client_revenue_analysis.sql`  
   Revenue and hours analysis by client
@@ -72,47 +126,38 @@ In this project, I used:
   Revenue and hours analysis by project
 
 - `sql/04_revenue_ranking.sql`  
-  Ranking, revenue share, and cumulative revenue share using CTEs and window functions
+  Ranking and revenue share analysis using CTEs and window functions
 
-## Business Questions
+- `sql/05_account_performance_summary.sql`  
+  Account-level performance summary
 
-This project looks at the following questions:
+- `sql/06_account_payment_summary.sql`  
+  Account-level payment summary
 
-1. Which clients generate the most revenue?
-2. Which projects generate the most revenue?
-3. How many projects does each client have?
-4. How many billable and non-billable hours are recorded?
-5. Which invoices are still pending or overdue?
-6. What share of total revenue comes from the top clients?
+- `sql/07_account_rate_summary.sql`  
+  Account-level rate summary
 
-## Example Analysis
+### Images
+- `images/client_performance_dashboard_excel.png`
 
-Some example SQL outputs from this project include:
+## What I Practiced in This Project
 
-- total invoice revenue by client
-- total billable amount by project
-- unpaid invoices by payment status
-- client revenue ranking
-- cumulative revenue share by client
+This project helped me practice a simple end-to-end workflow:
 
-## Key Takeaways
-
-This project shows how SQL can be used to answer simple business questions with client, project, timesheet, and invoice data.
-
-It also shows a basic workflow:
-- explore the data
-- aggregate revenue and hours
-- compare billable work and invoice values
-- rank clients and projects by revenue
+- preparing a small business dataset
+- writing SQL queries for analysis
+- creating summary tables for reporting
+- building a dashboard in Excel
+- presenting results in a portfolio format on GitHub
 
 ## Possible Next Steps
 
-Some possible next steps for this project are:
+Possible next steps for this project are:
 
-- add charts or dashboard screenshots in the `images` folder
-- build a simple dashboard in Excel or Power BI
-- add monthly revenue trend analysis
-- compare invoice amount and billable amount in more detail
+- building a Power BI version of the dashboard
+- adding monthly trend analysis
+- comparing billed work and invoiced revenue in more detail
+- improving dashboard design and interactivity
 
 ## Author
 
