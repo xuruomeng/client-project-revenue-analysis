@@ -138,7 +138,7 @@ Some of the main results shown in the dashboard are:
   Account-level rate summary
 
 ### Images
-- `images/client_performance_dashboard_excel.png`
+- `images/client_performance_dashboard_excel_version.png`
 
 ## What I Practiced in This Project
 
