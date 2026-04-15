@@ -1,0 +1,9 @@
+invoice_id,client,project,project_code,invoice_date,due_date,invoice_amount,currency,payment_status
+INV001,Alpha Retail GmbH,E-commerce Sales Dashboard,P001,2025-01-31,2025-02-14,1710,EUR,Paid
+INV002,Alpha Retail GmbH,Store Performance Analysis,P002,2025-04-30,2025-05-14,1260,EUR,Paid
+INV003,BlueTech Solutions,Marketing KPI Dashboard,P003,2025-02-28,2025-03-14,1800,EUR,Paid
+INV004,BlueTech Solutions,Customer Segmentation Study,P004,2025-06-30,2025-07-14,1575,EUR,Pending
+INV005,Green Energy Partners,Energy Consumption Reporting,P005,2025-02-28,2025-03-14,1078,EUR,Paid
+INV006,Urban Health Group,Hospital Resource Planning,P006,2025-03-31,2025-04-14,1380,EUR,Overdue
+INV007,NextGen Finance,Financial Forecast Model,P007,2025-03-31,2025-04-14,1430,EUR,Paid
+INV008,Vision Media Studio,Campaign Revenue Tracking,P008,2025-04-30,2025-05-14,1067,EUR,Paid
