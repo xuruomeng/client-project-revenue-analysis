@@ -1,0 +1,9 @@
+project_id,client_id,project_name,project_type,start_date,end_date,project_status
+P001,C001,E-commerce Sales Dashboard,BI Reporting,2025-01-10,2025-03-28,Completed
+P002,C001,Store Performance Analysis,Data Analysis,2025-04-05,2025-06-20,Completed
+P003,C002,Marketing KPI Dashboard,Dashboard Development,2025-02-01,2025-05-15,Completed
+P004,C002,Customer Segmentation Study,Data Analysis,2025-06-01,2025-08-30,In Progress
+P005,C003,Energy Consumption Reporting,BI Reporting,2025-01-20,2025-04-10,Completed
+P006,C004,Hospital Resource Planning,Operations Analysis,2025-03-12,2025-07-25,Completed
+P007,C005,Financial Forecast Model,Financial Analysis,2025-02-18,2025-06-30,Completed
+P008,C006,Campaign Revenue Tracking,Marketing Analytics,2025-04-01,2025-07-18,Completed
