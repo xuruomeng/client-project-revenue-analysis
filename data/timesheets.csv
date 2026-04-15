@@ -1,0 +1,21 @@
+date,client,project,project_code,task,hours,hours_rounded,billable,approved,first_name,last_name,employee_id,role,billable_rate,billable_amount,currency
+2025-01-15,Alpha Retail GmbH,E-commerce Sales Dashboard,P001,Dashboard Design,6,6,Yes,Yes,Emma,Schneider,101,BI Analyst,95,570,EUR
+2025-01-16,Alpha Retail GmbH,E-commerce Sales Dashboard,P001,Data Cleaning,7,7,Yes,Yes,Lukas,Meyer,102,Data Analyst,95,665,EUR
+2025-01-22,Alpha Retail GmbH,E-commerce Sales Dashboard,P001,Reporting Setup,5,5,Yes,Yes,Emma,Schneider,101,BI Analyst,95,475,EUR
+2025-04-08,Alpha Retail GmbH,Store Performance Analysis,P002,Sales Analysis,8,8,Yes,Yes,Noah,Wagner,103,Data Analyst,90,720,EUR
+2025-04-10,Alpha Retail GmbH,Store Performance Analysis,P002,Data Preparation,6,6,Yes,Yes,Mia,Fischer,104,Junior Analyst,90,540,EUR
+2025-04-14,Alpha Retail GmbH,Store Performance Analysis,P002,Internal Meeting,4,4,No,Yes,Noah,Wagner,103,Data Analyst,90,0,EUR
+2025-02-05,BlueTech Solutions,Marketing KPI Dashboard,P003,Dashboard Build,7,7,Yes,Yes,Hannah,Braun,105,BI Consultant,100,700,EUR
+2025-02-11,BlueTech Solutions,Marketing KPI Dashboard,P003,KPI Mapping,6,6,Yes,Yes,Leon,Hoffmann,106,Data Analyst,100,600,EUR
+2025-02-20,BlueTech Solutions,Marketing KPI Dashboard,P003,QA Review,5,5,Yes,Yes,Hannah,Braun,105,BI Consultant,100,500,EUR
+2025-06-05,BlueTech Solutions,Customer Segmentation Study,P004,Segmentation Analysis,8,8,Yes,Yes,Paul,Richter,107,Data Analyst,105,840,EUR
+2025-06-12,BlueTech Solutions,Customer Segmentation Study,P004,Data Modeling,7,7,Yes,No,Clara,Wolf,108,Analytics Consultant,105,735,EUR
+2025-01-25,Green Energy Partners,Energy Consumption Reporting,P005,Report Setup,6,6,Yes,Yes,Elias,Neumann,109,BI Analyst,98,588,EUR
+2025-02-03,Green Energy Partners,Energy Consumption Reporting,P005,Data Validation,5,5,Yes,Yes,Sarah,König,110,Data Analyst,98,490,EUR
+2025-03-15,Urban Health Group,Hospital Resource Planning,P006,Capacity Analysis,8,8,Yes,Yes,David,Hart,111,Operations Analyst,92,736,EUR
+2025-03-22,Urban Health Group,Hospital Resource Planning,P006,Planning Workshop,7,7,Yes,Yes,Lina,Vogel,112,Business Analyst,92,644,EUR
+2025-04-02,Urban Health Group,Hospital Resource Planning,P006,Internal Coordination,3,3,No,Yes,David,Hart,111,Operations Analyst,92,0,EUR
+2025-02-20,NextGen Finance,Financial Forecast Model,P007,Forecast Design,7,7,Yes,Yes,Felix,Jung,113,Financial Analyst,110,770,EUR
+2025-03-01,NextGen Finance,Financial Forecast Model,P007,Scenario Analysis,6,6,Yes,Yes,Marie,Kaiser,114,Finance Consultant,110,660,EUR
+2025-04-04,Vision Media Studio,Campaign Revenue Tracking,P008,Campaign Tracking Setup,5,5,Yes,Yes,Nina,Beck,115,Marketing Analyst,97,485,EUR
+2025-04-09,Vision Media Studio,Campaign Revenue Tracking,P008,Performance Review,6,6,Yes,Yes,Tom,Keller,116,Data Analyst,97,582,EUR
