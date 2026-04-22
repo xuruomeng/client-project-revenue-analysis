@@ -7,7 +7,11 @@ I used SQL to explore and summarize the data, and then created an Excel dashboar
 
 ## Dashboard Preview
 
-![Client Performance Dashboard](images/client_performance_dashboard_excel_version.png)
+### Excel Version
+![Client Performance Dashboard - Excel Version](images/client_performance_dashboard_excel_version.png)
+
+### Power BI Version
+![Client Performance Dashboard - Power BI Version](images/client_performance_dashboard_powerBI_version.png)
 
 ## Project Focus
 
