@@ -3,7 +3,7 @@
 This is a personal portfolio project I built to practice SQL-based business analysis and dashboard reporting.
 
 The project uses a small simulated business dataset with client, project, timesheet, and invoice data.  
-I used SQL to explore and summarize the data, and then created an Excel dashboard to present the main results in a clearer and more business-focused way.
+I used SQL to explore and summarize the data, and then created both an Excel dashboard and a Power BI dashboard to present the main results in a clearer and more business-focused way.
 
 ## Dashboard Preview
 
@@ -36,6 +36,7 @@ The project uses four source tables:
 
 - SQL
 - Excel
+- Power BI
 - GitHub
 
 ## SQL Skills Used
@@ -51,14 +52,16 @@ The project uses four source tables:
 
 ## Dashboard Content
 
-The Excel dashboard includes:
+The project includes both an Excel version and a Power BI version of the dashboard.
+
+Main dashboard elements include:
 
 - core KPIs
-- top clients by revenue
-- top projects by revenue
+- client slicer / account filter
 - revenue by account
 - billability rate by account
 - invoice status by account
+- average billable rate by account
 
 ## Files
 
@@ -79,12 +82,14 @@ The Excel dashboard includes:
 
 ### Images
 - `images/client_performance_dashboard_excel_version.png`
+- `images/client_performance_dashboard_powerBI_version.png`
 
 ## What I Practiced
 
 - exploring business data with SQL
 - creating account-level summary tables
-- building a simple dashboard in Excel
+- building dashboards in Excel and Power BI
+- working with KPI cards, filters, and account-level views
 - presenting the work in a portfolio format on GitHub
 
 ## Author
